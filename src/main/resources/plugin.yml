@@ -2,6 +2,8 @@ name: ${project.name}
 version: ${project.version}
 main: me.xneox.epicwelcome.EpicWelcomePlugin
 
+api-version: 1.16
+
 commands:
   epicwelcome:
     permission: epicwelcome.admin

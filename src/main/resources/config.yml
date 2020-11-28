@@ -23,7 +23,7 @@ join-actionbar:
 join-motd:
   enabled: true
   message: |
-    &7Welcome &e%player% &7on &eYourServer!
+    &7Welcome &e%player_name% &7on &eYourServer!
     &7Have fun!
 
 annouce-first-join:
