@@ -1,0 +1,13 @@
+name: ${project.name}
+version: ${project.version}
+main: me.xneox.epicwelcome.EpicWelcomePlugin
+
+commands:
+  epicwelcome:
+    permission: epicwelcome.admin
+    aliases: [ welcome, ew ]
+
+permissions:
+  epicwelcome.admin:
+    description: "Gives the ability to reload the plugin configuration"
+    default: op
